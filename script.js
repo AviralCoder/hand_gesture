@@ -66,14 +66,4 @@ function updateBars() {
     document.getElementById("okay").style.width = okay_percent + "%";
     document.getElementById("amazing").style.width = amazing_percent + "%";
     document.getElementById("cool").style.width = cool_percent + "%";
-
-    document.getElementById("okay").innerHTML = `👍🏻 ${
-        okay_percent.toFixed(2) + "%"
-    }`;
-    document.getElementById("amazing").innerHTML = `👌🏻 ${
-        amazing_percent.toFixed(2) + "%"
-    }`;
-    document.getElementById("cool").innerHTML = `🤘🏻 ${
-        cool_percent.toFixed(2) + "%"
-    }`;
 }
